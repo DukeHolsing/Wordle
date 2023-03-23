@@ -14,6 +14,7 @@
 		ABF2FD8129CC7615003F50BA /* Wordle_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF2FD8029CC7615003F50BA /* Wordle_CloneTests.swift */; };
 		ABF2FD8B29CC7615003F50BA /* Wordle_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF2FD8A29CC7615003F50BA /* Wordle_CloneUITests.swift */; };
 		ABF2FD8D29CC7615003F50BA /* Wordle_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF2FD8C29CC7615003F50BA /* Wordle_CloneUITestsLaunchTests.swift */; };
+		ABF2FD9A29CC76DE003F50BA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF2FD9929CC76DE003F50BA /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		ABF2FD8629CC7615003F50BA /* Wordle CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wordle CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF2FD8A29CC7615003F50BA /* Wordle_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wordle_CloneUITests.swift; sourceTree = "<group>"; };
 		ABF2FD8C29CC7615003F50BA /* Wordle_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wordle_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABF2FD9929CC76DE003F50BA /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				ABF2FD6E29CC7614003F50BA /* Wordle_CloneApp.swift */,
 				ABF2FD7029CC7614003F50BA /* ContentView.swift */,
+				ABF2FD9929CC76DE003F50BA /* Launch Screen.storyboard */,
 				ABF2FD7229CC7615003F50BA /* Assets.xcassets */,
 				ABF2FD7429CC7615003F50BA /* Wordle_Clone.entitlements */,
 				ABF2FD7529CC7615003F50BA /* Preview Content */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABF2FD9A29CC76DE003F50BA /* Launch Screen.storyboard in Resources */,
 				ABF2FD7729CC7615003F50BA /* Preview Assets.xcassets in Resources */,
 				ABF2FD7329CC7615003F50BA /* Assets.xcassets in Resources */,
 			);
@@ -425,10 +429,12 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -463,10 +469,12 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
